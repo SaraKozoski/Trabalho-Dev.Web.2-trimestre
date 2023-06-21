@@ -47,3 +47,20 @@ a{
     margin-left: 50px;
 
 }
+
+
+ 
+  
+.topo{
+    background-color: var(--fundo-cima);
+    color: #000;
+
+}
+
+button{
+    margin-left: 50px;
+    border-bottom: var(--letra-texto);
+    background-color: var(--fundo-baixo);
+    font-size:40px ;
+
+}
