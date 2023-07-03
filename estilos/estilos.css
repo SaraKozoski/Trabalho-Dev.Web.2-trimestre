@@ -3,7 +3,7 @@
 :root {
     --fundo-baixo: #0123268f;
     --fundo-cima: #faffff86;
-    --titulo: #012326;
+    --titulo: #01232633;
     --cor-4: #A69281;
     --cor-5: #F2EAE4;
     --letra-texto: #000;
@@ -45,22 +45,11 @@ a{
     color: var(--cor-4);
     text-decoration: none;
     margin-left: 50px;
+    height: 1000px;
 
 }
 
 
  
   
-.topo{
-    background-color: var(--fundo-cima);
-    color: #000;
 
-}
-
-button{
-    margin-left: 50px;
-    border-bottom: var(--letra-texto);
-    background-color: var(--fundo-baixo);
-    font-size:40px ;
-
-}
