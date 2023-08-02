@@ -23,8 +23,8 @@ body {
     margin-right: 300px;
 
     background-color: var(--fundo-cima);
-    height: 1000px;
-
+    height: 100%;
+   
 }
 
 
@@ -49,7 +49,21 @@ a{
 
 }
 
+.Titulo{
+    height: 100px;
+}
+.Texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 2100px;
+  
 
+}
+
+.Topo{
+background-color: #012326;
+
+}
  
   
 
