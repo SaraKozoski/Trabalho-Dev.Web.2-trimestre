@@ -23,7 +23,7 @@ body {
     margin-right: 300px;
 
     background-color: var(--fundo-cima);
-    height: 100%;
+  
 
 }
 
@@ -58,6 +58,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 2100px;
+    gap: 10px;
 
 
 }
@@ -72,11 +73,16 @@ a {
 .logo{
     display: grid;
    grid-template-columns: 100px 1fr; 
-  
+  background-color: #ffffff;
   
 }
 .nomelogo{
-    color: #000;
-
+    color:var(--fundo-baixo);
+    text-align: center;
+    background-color: #ffffff;
 }
 
+img{
+    display: block;
+    margin: auto;
+}
