@@ -7,6 +7,7 @@
     --cor-4: #A69281;
     --cor-5: #F2EAE4;
     --letra-texto: #000;
+    --font:'Times New Roman', Times, serif;
 
 }
 
@@ -14,7 +15,7 @@ body {
     background-color: var(--fundo-baixo);
     color: var(--cor-6);
     font-size: 15pt;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font);
     text-align: left;
 }
 
