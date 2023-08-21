@@ -34,7 +34,7 @@ body {
     text-align: center;
 }
 
-p {
+.Texto p {
     margin-left: 20px;
 
     color: var(--letra-texto)
@@ -65,9 +65,9 @@ a {
 
 .Topo {
     background-color: #012326;
-
-
-
+    height: 50px;
+    align-items: center;
+   
 }
 
 .logo{
@@ -80,15 +80,67 @@ a {
     color:var(--fundo-baixo);
     text-align: center;
     background-color: #ffffff;
+    text-shadow: 2px 2px 2px  #b4b2b2;
 }
 
-img{
-    display: block;
-    margin: auto;
-}
+
 footer{
     text-align: center;
     background-color: #012326 ;
 }
 
+.imagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.imagens img{
+    border-radius: 5%;
+}
+
+.imagens a{
+    background-color: #00000000;
+}
+.lado1 {
+    display: grid;
+
+ 
+}
+.imagemtexto1{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+   align-items: center;
+    
+}
+.imagemtexto1 p{
+    
+    text-align: justify;
+    font-size: 17px;
+}
+.paragrafo{
+    margin: 0%;
+}
+.Topo a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    max-width: 600px;
+    transform: translateY(0px);
+    animation:float 4s ease-in-out infinite;
+
+}
+@keyframes float{
+
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
 
