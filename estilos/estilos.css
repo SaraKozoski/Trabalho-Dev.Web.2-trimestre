@@ -25,7 +25,6 @@ body {
 
     background-color: var(--fundo-cima);
   
-
 }
 
 
@@ -111,6 +110,7 @@ footer{
     display: grid;
     grid-template-columns:1fr 1fr;
    align-items: center;
+  
     
 }
 .imagemtexto1 p{
@@ -145,3 +145,21 @@ footer{
     }
 }
 
+.Topo hr{
+    color: var(--cor-4);
+}
+
+  @media (max-width: 800px) {
+    #logo > img{
+        width: 80px;
+    }
+    #titulo > h1 {
+        font-size: 30px;
+    }
+    header{
+        grid-template-columns: 110px 1fr;
+    }
+    nav > a {
+        font-size: px;
+    }
+}
