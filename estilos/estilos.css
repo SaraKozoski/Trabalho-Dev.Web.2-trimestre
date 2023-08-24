@@ -40,7 +40,7 @@ body {
     color: var(--letra-texto)
 }
 
-a {
+ .Topo a {
     background-color: #012326;
     color: var(--cor-4);
     text-decoration: none;
@@ -83,12 +83,19 @@ a {
     text-shadow: 2px 2px 2px  #b4b2b2;
 }
 
-
 footer{
     text-align: center;
-    background-color: #012326 ;
+    color: #ffffff;
+    background-color: #000000 ;
+    text-decoration: none;
+
+
 }
 
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
 .imagens{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -149,17 +156,6 @@ footer{
     color: var(--cor-4);
 }
 
-  @media (max-width: 800px) {
-    #logo > img{
-        width: 80px;
-    }
-    #titulo > h1 {
-        font-size: 30px;
-    }
-    header{
-        grid-template-columns: 110px 1fr;
-    }
-    nav > a {
-        font-size: px;
-    }
+.imagemtexto2 img{
+    margin-left: 2px;
 }
